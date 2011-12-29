@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/webguide.doc.tar.
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 The documentation constitutes an example of the package's own
@@ -34,7 +32,6 @@ recommendations (being presented both in PDF and HTML).
 %doc %{_texmfdistdir}/doc/latex/webguide/webguide.ps.gz
 %doc %{_texmfdistdir}/doc/latex/webguide/webguide.tex
 %doc %{_texmfdistdir}/doc/latex/webguide/webguide0x.gif
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -45,5 +42,3 @@ recommendations (being presented both in PDF and HTML).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
