@@ -1,12 +1,12 @@
-# revision 15878
+# revision 25813
 # category Package
 # catalog-ctan /info/webguide
-# catalog-date 2008-04-19 22:54:02 +0200
+# catalog-date 2011-06-16 21:20:53 +0200
 # catalog-license other-free
 # catalog-version undef
 Name:		texlive-webguide
-Version:	20080419
-Release:	2
+Version:	20110616
+Release:	1
 Summary:	Brief Guide to LaTeX Tools for Web publishing
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/webguide
@@ -29,7 +29,6 @@ recommendations (being presented both in PDF and HTML).
 %doc %{_texmfdistdir}/doc/latex/webguide/webguide.css
 %doc %{_texmfdistdir}/doc/latex/webguide/webguide.html
 %doc %{_texmfdistdir}/doc/latex/webguide/webguide.pdf
-%doc %{_texmfdistdir}/doc/latex/webguide/webguide.ps.gz
 %doc %{_texmfdistdir}/doc/latex/webguide/webguide.tex
 %doc %{_texmfdistdir}/doc/latex/webguide/webguide0x.gif
 
