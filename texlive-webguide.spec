@@ -41,3 +41,20 @@ recommendations (being presented both in PDF and HTML).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Sat Apr 14 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110616-1
++ Revision: 790843
+- Update to latest release.
+
+* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 20080419-2
++ Revision: 757515
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20080419-1
++ Revision: 719907
+- texlive-webguide
+- texlive-webguide
+- texlive-webguide
+
