@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-webguide
 Version:	20110616
-Release:	5
+Release:	6
 Summary:	Brief Guide to LaTeX Tools for Web publishing
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/webguide
