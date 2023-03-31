@@ -1,6 +1,6 @@
 Name:		texlive-webguide
 Version:	25813
-Release:	1
+Release:	2
 Summary:	Brief Guide to LaTeX Tools for Web publishing
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/webguide
