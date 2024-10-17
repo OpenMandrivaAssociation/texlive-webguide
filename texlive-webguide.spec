@@ -3,7 +3,7 @@ Version:	25813
 Release:	2
 Summary:	Brief Guide to LaTeX Tools for Web publishing
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/webguide
+URL:		https://www.ctan.org/tex-archive/info/webguide
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/webguide.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/webguide.doc.r%{version}.tar.xz
